@@ -56,7 +56,7 @@ for (let i = 0; i < teamMembers.length; i++) {
       </div>
   
                     
-      <div class="col-8">
+      <div class="col-8" style="top: 10px";>
          <p class="text-white"> ${teamMembers[i].name} </p>
           <p class="text-white"> ${teamMembers[i].role} </p>
           <p class="text-white"> ${teamMembers[i].email} </p>
