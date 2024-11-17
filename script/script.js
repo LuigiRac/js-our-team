@@ -38,7 +38,20 @@ const teamMembers = [
 ];
 
 
-const cardsContainer = document.getElementById("cards-container");
-let div = document.createElement('div');
+const cards = document.getElementById("cards");
 
-cardsContainer.appendChild(div);
+// const card = document.getElementById("card");
+for (let i = 0; i < teamMembers.length; i++) {
+  // console.log(teamMembers[0].name);
+  let cardsContainer = document.createElement('div');
+
+  cardsContainer.innerHTML = `<div class="card card bg-dark">
+                    <div class="row">
+                    
+                      <img src="${teamMembers[i].img}">
+                      <p class="text-white"> ${teamMembers[i].name} </p>
+                    </div>
+                </div>`
+
+  cards.appendChild(cardsContainer)
+}
