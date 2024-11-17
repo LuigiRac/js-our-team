@@ -38,3 +38,7 @@ const teamMembers = [
 ];
 
 
+const cardsContainer = document.getElementById("cards-container");
+let div = document.createElement('div');
+
+cardsContainer.appendChild(div);
