@@ -4,16 +4,26 @@
     box-sizing: border-box;
 }
 
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 10px;
-}
+} */
 
 img {
     height: 100px;
 }
 
-/* .card {
-    width: 200px;
+/* 
+.card {
+    width: 200px !important;
+} */
+
+#cards {
+    gap: 10px;
+}
+
+/* p {
+    margin: 0 !important;
+    padding: 0 !important;
 } */

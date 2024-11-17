@@ -45,17 +45,26 @@ for (let i = 0; i < teamMembers.length; i++) {
   // console.log(teamMembers[0].name);
   let cardsContainer = document.createElement('div');
 
+  cardsContainer.classList.add("bg-dark")
+  cardsContainer.classList.add("col-4")
   cardsContainer.innerHTML = `
-  <div class="card bg-dark d-flex flex-row">
-                    <div class="col-4">
-                        <img src="${teamMembers[i].img}">
-                    </div>
-                    <div class="col-8">
-                        <p class="text-white"> ${teamMembers[i].name} </p>
-                        <p class="text-white"> ${teamMembers[i].role} </p>
-                        <p class="text-white"> ${teamMembers[i].email} </p>
-                    </div>
-                </div>`
+  <div class="w-100">
+  <div class="d-flex">
+   <div class="row">
+      <div class="col-4">
+          <img src="${teamMembers[i].img}">
+      </div>
+  
+                    
+      <div class="col-8">
+         <p class="text-white"> ${teamMembers[i].name} </p>
+          <p class="text-white"> ${teamMembers[i].role} </p>
+          <p class="text-white"> ${teamMembers[i].email} </p>
+      </div>
+    </div>
+   </div>
+   </div>`
+
 
   cards.appendChild(cardsContainer)
 }
