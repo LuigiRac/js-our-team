@@ -11,7 +11,8 @@
 } */
 
 img {
-    height: 100px;
+    height: 100%;
+    width: 100%;
 }
 
 /* 
@@ -19,9 +20,9 @@ img {
     width: 200px !important;
 } */
 
-#cards {
+/* #cards {
     gap: 10px;
-}
+} */
 
 /* p {
     margin: 0 !important;

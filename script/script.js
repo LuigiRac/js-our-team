@@ -51,7 +51,7 @@ for (let i = 0; i < teamMembers.length; i++) {
   <div class="w-100">
   <div class="d-flex">
    <div class="row">
-      <div class="col-4">
+      <div class="col-4 p-0 pb-0">
           <img src="${teamMembers[i].img}">
       </div>
   
